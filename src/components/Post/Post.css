@@ -1,0 +1,123 @@
+.post-1 {
+    height: 100%;
+    width: 85%;
+    background-color: #0f0f11;
+    flex-direction: column;
+    margin-left: 7.5%;
+    margin-top: 5%;
+    border-radius: 30px;
+    border: 2px solid #1c1c1c;
+    padding-bottom: 7%;
+}
+
+.user-profile {
+    height: 25px;
+    width: 40%;
+    background-color: #0f0f11;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.handle {
+    display: flex;
+    position: relative;
+}
+
+.user-prof {
+    background: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.user-name {
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.user-handle {
+    color: #999;
+    height: 10px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.user-date {
+    color: #999;
+    margin-top: 5px;
+    margin-left: 43px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.user-text {
+    color: #fff;
+    text-align: left;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.user-img {
+    display: flex;
+    margin-left:70px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 300px;
+    width: 75%;
+    border-radius: 20px;
+    border: 1px solid #1c1c1c;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.user-video {
+    margin-left:70px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #1c1c1c;
+    overflow: hidden;
+    width: 75%; 
+    height: 100%;
+}
+
+.tweet-img {
+    flex-basis: 50%;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+}
+
+.divide {
+    padding-left: 10px;
+    width: auto;
+}
+
+#moreButton {
+    border: 2px solid #657789;
+    background-color: transparent;
+    color: #fff;
+    padding: 1% 39% 1% 39%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}    
+
+.fa-arrow-down {
+    color: #657789;
+    font-size: 20px;
+}
+
+.fa-arrow-down:hover {
+    color: #00ADFF;
+}
